@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-serve build",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.0.2",
+    "@remix-run/css-bundle": "*",
+    "@remix-run/node": "*",
+    "@remix-run/react": "*",
+    "@remix-run/serve": "*",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "isbot": "^3.6.8",
+    "lucide-react": "^0.265.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^1.14.0",
+    "tailwindcss-animate": "^1.0.6"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "*",
+    "@remix-run/eslint-config": "*",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/react": "^18.0.35",
+    "@types/react-dom": "^18.0.11",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.38.0",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.0.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
